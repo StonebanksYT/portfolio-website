@@ -4,7 +4,7 @@ Welcome to the repository for my personal portfolio! This project showcases my s
 
 ## 🖥️ Live Demo
 
-You can view the live version of my portfolio [here](https://your-portfolio-url.com). _(Replace with your actual URL)_
+You can view the live version of my portfolio [here](https://kaustubhtiwari.vercel.app).
 
 ---
 
@@ -49,8 +49,8 @@ The portfolio is organized into the following folders for modularity and maintai
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/StonebanksYT/portfolio.git
-   cd portfolio
+   git clone https://github.com/StonebanksYT/portfolio-website.git
+   cd portfolio-website
    ```
 
 2. **Install dependencies**:
@@ -96,7 +96,7 @@ Data for sections like experience and projects is managed in the `/lib/data.ts` 
 
 If you'd like to connect or have any queries, you can reach out to me via:
 
-- Email: kaustubh.tiwari@example.com _(Replace with your actual email)_
+- Email: kaustubhtiwari2003@gmail.com
 - LinkedIn: [linkedin.com/in/kaustubh-tiwari](https://www.linkedin.com/in/kaustubh-tiwari-60a623138)
 
 ---

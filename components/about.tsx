@@ -21,17 +21,16 @@ export default function About() {
       <p className="mb-3">
         I am currently studying B.Tech in{" "}
         <span className="font-medium">Computer Science Engineering</span>. I am
-        passionate about programming and been programming since 10th grade. I enrolled in a coding bootcamp and learned{" "}
+        passionate about programming and have been programming since 10th grade.
+        I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MySQL
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
+        <span className="font-medium">React, Next.js, Node.js, and MySQL</span>.
+        I am also familiar with TypeScript and Python. I am always keen to learn
+        new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
@@ -41,8 +40,10 @@ export default function About() {
         video games, watching movies, and listening to music. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="font-medium">
+          finance and role of AI in quantitative financial management
+        </span>
+        . I also play table tennis and basketball in my freetime.
       </p>
     </motion.section>
   );
