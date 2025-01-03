@@ -1,10 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import discordCloneImg from "@/public/discord-clone.jpg";
+import quanteaseImg from "@/public/quantease.png";
+import ecommerceStoreImg from "@/public/ecommerce-store.jpg";
+import ecommerceAdminPanelImg from "@/public/ecommerce-admin.jpg";
+import educationCounselingImg from "@/public/counselling.jpg";
 
 export const links = [
   {
@@ -70,25 +71,39 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Discord Clone",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A real-time chat application inspired by Discord, featuring voice and text channels, user authentication, and a responsive UI.",
+    tags: ["React", "Next.js", "Firebase", "Tailwind CSS"],
+    imageUrl: discordCloneImg, // Replace with the actual image variable or URL
   },
   {
-    title: "rmtDev",
+    title: "QuantEase",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A Quantitative Finance Analysis Toolkit for analyzing and modeling financial data, including portfolio optimization, risk management, and statistical analysis of market trends.",
+    tags: ["Python", "Flask", "Pandas", "NumPy", "NextJS"],
+    imageUrl: quanteaseImg, // Replace with the actual image variable or URL
   },
   {
-    title: "Word Analytics",
+    title: "E-Commerce Store",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A fully functional e-commerce platform allowing users to browse products, add items to the cart, and complete purchases with a secure payment gateway.",
+    tags: ["Next.js", "Supabase", "Tailwind CSS", "Stripe"],
+    imageUrl: ecommerceStoreImg, // Replace with the actual image variable or URL
+  },
+  {
+    title: "E-Commerce Admin Panel",
+    description:
+      "A robust admin dashboard for managing products, orders, and users on the e-commerce platform, featuring analytics and detailed insights.",
+    tags: ["Next.js", "Supabase", "Tailwind CSS", "Chart.js"],
+    imageUrl: ecommerceAdminPanelImg, // Replace with the actual image variable or URL
+  },
+  {
+    title: "Education Counseling Website",
+    description:
+      "A responsive website for Rana Perfect Counseling, providing educational guidance and services for students.",
+    tags: ["Next.js", "React", "Tailwind CSS", "Supabase"],
+    imageUrl: educationCounselingImg, // Replace with the actual image variable or URL
   },
 ] as const;
 

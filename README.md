@@ -96,7 +96,7 @@ Data for sections like experience and projects is managed in the `/lib/data.ts` 
 
 If you'd like to connect or have any queries, you can reach out to me via:
 
-- Email: kaustubhtiwari2003@gmail.com
+- Email: [kaustubhtiwari2003@gmail.com](https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=kaustubhtiwari2003@gmail.com)
 - LinkedIn: [linkedin.com/in/kaustubh-tiwari](https://www.linkedin.com/in/kaustubh-tiwari-60a623138)
 
 ---
