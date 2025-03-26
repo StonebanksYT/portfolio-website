@@ -36,6 +36,13 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Software Developer Intern",
+    location: "Airtel Digital, Gurgaon, India",
+    description: "Working on Airtel Xstream Web Application using React.JS and Redux.",
+    icon: React.createElement(CgWorkAlt),
+    date: "February 2025 - Present",
+  },
+  {
     title: "Freelance Software Developer",
     location: "Upwork, Remote",
     description:
@@ -76,13 +83,15 @@ export const projectsData = [
       "A real-time chat application inspired by Discord, featuring voice and text channels, user authentication, and a responsive UI.",
     tags: ["React", "Next.js", "Firebase", "Tailwind CSS"],
     imageUrl: discordCloneImg, // Replace with the actual image variable or URL
+    link: "https://discordio-stonebanks.vercel.app",
   },
   {
     title: "QuantEase",
     description:
       "A Quantitative Finance Analysis Toolkit for analyzing and modeling financial data, including portfolio optimization, risk management, and statistical analysis of market trends.",
     tags: ["Python", "Flask", "Pandas", "NumPy", "NextJS"],
-    imageUrl: quanteaseImg, // Replace with the actual image variable or URL
+    imageUrl: quanteaseImg,
+    link:"https://quanteasee.vercel.app" // Replace with the actual image variable or URL
   },
   {
     title: "E-Commerce Store",
@@ -90,6 +99,7 @@ export const projectsData = [
       "A fully functional e-commerce platform allowing users to browse products, add items to the cart, and complete purchases with a secure payment gateway.",
     tags: ["Next.js", "Supabase", "Tailwind CSS", "Stripe"],
     imageUrl: ecommerceStoreImg, // Replace with the actual image variable or URL
+    link:"https://ecommerce-store-kt.vercel.app"
   },
   {
     title: "E-Commerce Admin Panel",
@@ -97,13 +107,15 @@ export const projectsData = [
       "A robust admin dashboard for managing products, orders, and users on the e-commerce platform, featuring analytics and detailed insights.",
     tags: ["Next.js", "Supabase", "Tailwind CSS", "Chart.js"],
     imageUrl: ecommerceAdminPanelImg, // Replace with the actual image variable or URL
+    link:"https://ecommerce-admin-kt.vercel.app"
   },
   {
     title: "Education Counseling Website",
     description:
       "A responsive website for Rana Perfect Counseling, providing educational guidance and services for students.",
     tags: ["Next.js", "React", "Tailwind CSS", "Supabase"],
-    imageUrl: educationCounselingImg, // Replace with the actual image variable or URL
+    imageUrl: educationCounselingImg,
+    link:"https://rana-perfect-counselling.vercel.app/" // Replace with the actual image variable or URL
   },
 ] as const;
 
